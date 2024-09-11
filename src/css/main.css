@@ -12,3 +12,71 @@ img,
 video {
   display: block;
 }
+.Topbar {
+  background-color: #e9e9e9;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  display: flex;
+  width: 1728px;
+  height: 1117px;
+  padding-bottom: 1013px;
+}
+.burger {
+  width: 30px;
+  height: 34.286px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+  text-transform: uppercase;
+}
+.menu {
+  display: flex;
+  padding: 20px 30px;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 32px;
+  background: #fff;
+}
+.tools {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.pp {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: #fff;
+}
+.pp1 {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: #fff;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+  text-transform: uppercase;
+}
